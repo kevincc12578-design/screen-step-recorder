@@ -1,0 +1,20 @@
+# Local Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Recordings, screenshots, and local smoke-test output
+/录制结果/
+/录制器自检/
+*.log
+
+# Local secrets and editor state
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
